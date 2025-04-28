@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background: rgb(13, 100, 69);
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: rgb(18, 113, 69)
+}
+
+li {
+    height: 60px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+li:hover {
+    background-color: rgb(133, 26, 26);
+}
+
+a {
+    font-size: 30px;
+    width: 100%;
+    color: white;
+}
+
+.banner {
+    margin-top: 30px;
+}
+
+form {
+    margin-top: 30px;
+}
